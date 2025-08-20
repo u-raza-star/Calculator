@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+head{
+  height: 50px;
+  width: 100%;
+}
+h1 {
+  font-style: italic;
+  font-size: 50px;
+  width: 100%;
+  font-weight: 700;
+  padding-bottom: 1%;
+  padding-top: 2%;
+  padding-left: 2%;
+  color: rgb(182, 182, 182);
+  background-color: black;
+}
+main {
+  padding-bottom: 245px;
+  background-color: black;
+}
+
+#calculator {
+  margin-left: 45%;
+  border: 1px solid rgb(187, 183, 183);
+  border-radius: 5px;
+  width: 200px;
+}
+
+#display {
+  border-radius: 10px;
+  margin: 2px;
+  font-weight: 100;
+  color: white;
+  background-color: black;
+  width: 85%;
+  font-size: 35px;
+  text-align: right;
+  overflow-x: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+  flex-wrap: wrap;
+}
+
+.button {
+  width: 45px;
+  height: 45px;
+}
+
+#red {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 60px;
+  border: 1px solid #ff3b30;
+  margin: 1px;
+  color: white;
+  background: #ff3b30;
+  border: none;
+}
+
+#green {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 255, 0);
+  margin: 1px;
+  color: white;
+  background-color: rgb(0, 255, 0);
+  border: none;
+}
+
+#gray1 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 60px;
+  border: 1px solid rgb(192, 192, 192);
+  margin: 1px;
+  border: none;
+  background-color: rgb(192, 192, 192);
+}
+
+#gray2 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 60px;
+  border: 1px solid rgb(192, 192, 192);
+  margin: 1px;
+  border: none;
+  background-color: rgb(192, 192, 192);
+}
+
+#gray3 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 60px;
+  border: 1px solid rgb(192, 192, 192);
+  margin: 1px;
+  border: none;
+  background-color: rgb(192, 192, 192);
+}
+
+#gray4 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 60px;
+  border: 1px solid rgb(192, 192, 192);
+  margin: 1px;
+  border: none;
+  background-color: rgb(192, 192, 192);
+}
+
+#black1 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 0, 130);
+  margin: 1px;
+  border: none;
+  color: rgb(245, 245, 220);
+  background-color: rgb(75, 0, 130);
+}
+#black2 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 0, 130);
+  margin: 1px;
+  border: none;
+  color: rgb(245, 245, 220);
+  background-color: rgb(75, 0, 130);
+}
+#black3 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 12px;
+  border: 1px solid rgb(75, 0, 130);
+  margin: 1px;
+  border: none;
+  color: rgb(245, 245, 220);
+  background-color: rgb(75, 0, 130);
+}
+#black4 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 0, 130);
+  margin: 1px;
+  border: none;
+  color: rgb(245, 245, 220);
+  background-color: rgb(75, 0, 130);
+}
+#black5 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 0, 130);
+  margin: 1px;
+  border: none;
+  color: rgb(245, 245, 220);
+  background-color: rgb(75, 0, 130);
+}
+#black6 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 0, 130);
+  margin: 1px;
+  border: none;
+  color: rgb(245, 245, 220);
+  background-color: rgb(75, 0, 130);
+}
+#black7 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 0, 130);
+  margin: 1px;
+  border: none;
+  color: rgb(245, 245, 220);
+  background-color: rgb(75, 0, 130);
+}
+
+#black8 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 0, 130);
+  margin: 1px;
+  border: none;
+  color: rgb(245, 245, 220);
+  background-color: rgb(75, 0, 130);
+}
+#black9 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 0, 130);
+  margin: 1px;
+  border: none;
+  color: rgb(245, 245, 220);
+  background-color: rgb(75, 0, 130);
+}
+#black10 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 0, 130);
+  margin: 1px;
+  border: none;
+  color: rgb(245, 245, 220);
+  background-color: rgb(75, 0, 130);
+}
+
+#black11 {
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 0, 130);
+  margin: 1px;
+  border: none;
+  color: rgb(245, 245, 220);
+  background-color: rgb(75, 0, 130);
+}
